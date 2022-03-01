@@ -20,6 +20,7 @@ export class HomePage {
       component: LoaderContainerComponent,
       cssClass: 'acc-attachment-container',
       backdropDismiss: false,
+      id: 'myModal',
       componentProps: {
       data: this.props
       }
